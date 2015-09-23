@@ -439,7 +439,7 @@ body .demo-blog {
 }
 
 .demo-blog--blogpost .demo-back {
-  position: absolute;
+  position: fixed;
   top: 16px;
   left: 16px;
   color: black;
