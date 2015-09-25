@@ -302,6 +302,22 @@ body .demo-blog {
     background-image: url('images/books/edrtr.jpg');
 }
 
+.demo-blog .book-17eq .mdl-card__media {
+    background-image: url('images/books/17eq.jpg');
+}
+
+.demo-blog .book-docker .mdl-card__media {
+    background-image: url('images/books/docker.png');
+}
+
+.demo-blog .book-mnm .mdl-card__media {
+    background-image: url('images/books/mnm.jpg');
+}
+
+.mdl-card a {
+    color: inherit;
+    text-decoration: none;
+}
 
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
