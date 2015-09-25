@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+body.real-gabinete-pic {
+    background-image: url('images/real_gabinete.jpg');
+}
+
 body::before {
     background-image: url('/images/head.jpg');
     background-size: cover;
@@ -200,9 +204,104 @@ body .demo-blog {
     background-image: url('images/bromine.png');
 }
 
+.demo-blog .real-gabinete-pic .mdl-card__media {
+    background-image: url('images/real_gabinete.jpg');
+}
+
 .demo-blog .linkedin-logo .mdl-card__media {
      background-image: url('images/linkedin-logo.png');
  }
+
+
+
+.demo-blog .book-ddd .mdl-card__media {
+    background-image: url('images/books/ddd.jpg');
+}
+
+.demo-blog .book-cr .mdl-card__media {
+    background-image: url('images/books/confident_ruby.jpg');
+}
+
+.demo-blog .book-ood .mdl-card__media {
+    background-image: url('images/books/object_oriented_design.jpg');
+}
+
+.demo-blog .book-mpr .mdl-card__media {
+    background-image: url('images/books/metaprogramming.jpg');
+}
+
+.demo-blog .book-7data .mdl-card__media {
+    background-image: url('images/books/7data.jpg');
+}
+
+.demo-blog .book-7lang .mdl-card__media {
+    background-image: url('images/books/7lang.jpg');
+}
+
+.demo-blog .book-7mlang .mdl-card__media {
+    background-image: url('images/books/7mlang.jpg');
+}
+
+.demo-blog .book-perlang .mdl-card__media {
+    background-image: url('images/books/perlang.jpg');
+}
+
+.demo-blog .book-pelixir .mdl-card__media {
+    background-image: url('images/books/pelixir.jpg');
+}
+
+.demo-blog .book-remote .mdl-card__media {
+    background-image: url('images/books/remote.png');
+}
+
+.demo-blog .book-depra .mdl-card__media {
+    background-image: url('images/books/depra.jpg');
+}
+
+.demo-blog .book-rspec .mdl-card__media {
+    background-image: url('images/books/rspec.jpg');
+}
+
+.demo-blog .book-tpp .mdl-card__media {
+    background-image: url('images/books/tpp.jpg');
+}
+
+.demo-blog .book-twa2 .mdl-card__media {
+    background-image: url('images/books/twa2.jpg');
+}
+
+.demo-blog .book-smacss .mdl-card__media {
+    background-image: url('images/books/smacss.jpg');
+}
+
+.demo-blog .book-goodmath .mdl-card__media {
+    background-image: url('images/books/goodmath.jpg');
+}
+
+.demo-blog .book-rspec .mdl-card__media {
+    background-image: url('images/books/rspec.jpg');
+}
+
+.demo-blog .book-patterns-in-polymer .mdl-card__media {
+    background-image: url('images/books/patterns-in-polymer.png');
+}
+
+.demo-blog .book-or .mdl-card__media {
+    background-image: url('images/books/or.jpg');
+}
+
+.demo-blog .book-grap .mdl-card__media {
+    background-image: url('images/books/grap.jpg');
+}
+
+.demo-blog .book-exceptional .mdl-card__media {
+    background-image: url('images/books/exceptional.jpg');
+}
+
+.demo-blog .book-edrtr .mdl-card__media {
+    background-image: url('images/books/edrtr.jpg');
+}
+
 
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
@@ -444,6 +543,14 @@ body .demo-blog {
   left: 16px;
   color: black;
   z-index: 9999;
+}
+
+.demo-blog--blogpost .demo-back-white {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    color: white;
+    z-index: 9999;
 }
 .demo-blog .section-spacer {
   -webkit-box-flex: 1;
